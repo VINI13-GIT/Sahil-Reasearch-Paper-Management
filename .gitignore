@@ -1,0 +1,29 @@
+# Build and binary files
+backend_server
+run_backend_tests
+*.o
+*.a
+*.so
+*.dylib
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+
+# Database file (sample database can be committed or excluded; usually excluded in production)
+database/test_papers.db
+database/*.db-journal
+
+# Environment / OS files
+.DS_Store
+*.swp
+*~
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
